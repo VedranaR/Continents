@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="shortcut icon" type="image/favicon" href="img/favicon.ico">
+	<title>Beauty of the world</title>
+</head>
+<body id="container">
+	<header>
+		<nav id="navbar">
+		    <span id="open_menu">
+				<a href="#" onclick="openMenu()">
+			        <svg width="30" height="30">
+			            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+			            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+			            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+			        </svg>
+				</a>
+		    </span>
+
+		    <ul id="navig">
+				<li><a href="#" onclick="europe()">Europe</a></li>
+				<li><a href="#" onclick="asia()">Asia</a></li>
+				<li><a href="#" onclick="africa()">Africa</a></li>
+				<li><a href="#" onclick="australia()">Australia</a></li>
+				<li><a href="#" onclick="northAmerica()">North America</a></li>
+				<li><a href="#" onclick="southAmerica()">South America</a></li>
+		    </ul>
+		</nav>
+
+		<div id="slide_menu">
+		    <a href="#" id="btn-close" onclick="closeMenu()">&times;</a>
+		    <a href="#" onclick="europe()">Europe</a>
+		    <a href="#" onclick="asia()">Asia</a>
+		    <a href="#" onclick="africa()">Africa</a>
+		    <a href="#" onclick="australia()">Australia</a>
+		    <a href="#" onclick="northAmerica()">North America</a>
+		    <a href="#" onclick="southAmerica()">South America</a>
+		</div>
+
+		<div id="image1">
+ 			<h2 id="continent_h2">EUROPE</h2>
+		</div>
+	</header>
+	<main id="container_main">
+		<div class="block_text">
+			<h3 id="continent_h3">Europe is densely populated</h3>
+		 	<p class="para" id="continent_first_p">It's the third continent in the world, with population of around 739 millions of people.
+			And it's divided into 50 sovereign states and 6 more states with limited recognition.
+			</p>
+		</div>
+
+		<div id="image2">
+			<div class="text_background">
+	    		<p class="pic_text" id="first_country">FRANCE</p>
+			</div>
+		</div>
+
+		<div>
+			<div class="other_blocks">
+	    		<p class="para" id="continent_second_p">French cuisine is renowned for being one of the finest in the world. And the Eiffel Tower is one of its most popular tourist sites.</p>
+			</div>
+		</div>
+
+		<div id="image3">
+			<div class="text_background">
+				<p class="pic_text" id="second_country">UNITED KINGDOM</p>
+			</div>
+		</div>
+
+		<div>
+			<div class="other_blocks">
+				<p class="para"  id="continent_third_p">The United Kingdom includes the island of Great Britain, the north-eastern part of the island of Ireland and many smaller islands. It is a monarchy, its queen being  Elizabeth II since 1952.</p>
+			</div>
+		</div>
+
+		<div id="image4">
+			<div class="text_background">
+				<p class="pic_text" id="third_country">GREECE</p>
+			</div>
+		</div>
+
+		<div>
+			<div class="other_blocks">
+				<p class="para" id="continent_fourth_p">Greece is the birthplace of democracy and Olympic Games. It has so many islands that its coastline is the 11th longest in the world.</p>
+			</div>
+		</div>
+
+		<a href="#navbar" id="btn-up"><img src="img/arrow.svg" alt="Path to the top of the page"></a>
+	</main>
+
+		<!-- JavaScript -->
+	<script src="app.js"></script>
+
+	<footer>
+        <p>VedranaR, Copyright &copy; 2018</p>
+        <p>Images by <a href="https://www.pexels.com/" title="Pexels">www.pexels.com</a></p>
+    </footer>
+</body>
+</html>
